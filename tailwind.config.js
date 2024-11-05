@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ['Poppins', 'sans-serif'],
+      },
       backgroundImage:{
         'bannerImage': "url('/background.svg')",
         'backgroundImage': "url('/backgroundImage.svg')",
